@@ -1,6 +1,7 @@
 {% for name, target in template_inputs.total_stars_and_forks.items() %}
 + [{{ target.name }}](https://github.com/{{ target.name }})
-+ [{{ target.result }}]
+![{{ target.result.stars }} stars](https://img.shields.io/badge/Stars-{{ target.result.stars }}-green)
+![{{ target.result.forks }} forks](https://img.shields.io/badge/Forks-{{ target.result.forks }}-green)
 {% endfor %}
 
 
