@@ -1,8 +1,15 @@
+{% for name, target in template_inputs.total_stars_and_forks.items() %}
++ [{{ target.name }}](https://github.com/{{ target.name }})
+    {% for result in target.result %}
+    ![{{ result.stars }} stars](https://img.shields.io/badge/Stars-{{ result.stars }}-green)
+    ![{{ result.forks }} forks](https://img.shields.io/badge/Forks-{{ result.forks }}-green)
+    {% endfor %}
+{% endfor %}
+
+
 
 {% for name, target in template_inputs.top_star_repos.items() %}
 + [{{ target.name }}](https://github.com/{{ target.name }}) STAR TOP {{ target.topCount }} 
- ![{{ user.stars }} stars](https://img.shields.io/badge/Stars-{{ user.stars }}-green)
- ![{{ user.forks }} forks](https://img.shields.io/badge/Forks-{{ user.forks }}-green)
     {% for repo in target.result %}
     + [{{ repo.name }}](https://github.com/{{ target.name }}/{{ repo.name }}) 
     ![{{ repo.stargazerCount }} stars](https://img.shields.io/badge/Stars-{{ repo.stargazerCount }}-green)
