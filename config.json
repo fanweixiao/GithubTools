@@ -1,5 +1,5 @@
 {
-    "token":"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",
+    "token":"token",
     "tasks":[
         {
             "type": "get_total_stars_and_forks",
