@@ -15,7 +15,7 @@
         <a href="https://github.com/tarscloud/tars" target="_blank">tarscloud/tars</a>
       </strong>  的star历史图
   <br>
-  <img src="https://raw.githubusercontent.com/ButterAndButterfly/GithubTools/master/{{ template_inputs.stars_history['tarscloud/tars'].output }}" width="350px"></img>    
+  <img src="https://raw.githubusercontent.com/ButterAndButterfly/GithubTools/master/{{ template_inputs.stars_history['tkestack/tke'].output }}" width="350px"></img>    
 </p>
 
 <p align="right">
