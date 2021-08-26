@@ -1,9 +1,11 @@
 
 + [tencent](https://github.com/tencent)
-+ [{'stars': 374948, 'forks': 74626}]
+![374948 stars](https://img.shields.io/badge/Stars-374948-green)
+![74626 forks](https://img.shields.io/badge/Forks-74626-green)
 
 + [tarscloud](https://github.com/tarscloud)
-+ [{'stars': 13452, 'forks': 3279}]
+![13452 stars](https://img.shields.io/badge/Stars-13452-green)
+![3279 forks](https://img.shields.io/badge/Forks-3279-green)
 
 
 
