@@ -1,21 +1,9 @@
 
 + [tencent](https://github.com/tencent)
-    
-    ![ stars](https://img.shields.io/badge/Stars--green)
-    ![ forks](https://img.shields.io/badge/Forks--green)
-    
-    ![ stars](https://img.shields.io/badge/Stars--green)
-    ![ forks](https://img.shields.io/badge/Forks--green)
-    
++ [{'stars': 374948, 'forks': 74626}]
 
 + [tarscloud](https://github.com/tarscloud)
-    
-    ![ stars](https://img.shields.io/badge/Stars--green)
-    ![ forks](https://img.shields.io/badge/Forks--green)
-    
-    ![ stars](https://img.shields.io/badge/Stars--green)
-    ![ forks](https://img.shields.io/badge/Forks--green)
-    
++ [{'stars': 13452, 'forks': 3279}]
 
 
 
@@ -110,7 +98,7 @@
     
     + [secguide](https://github.com/tencent/secguide) 
     ![6441 stars](https://img.shields.io/badge/Stars-6441-green)
-    ![894 forks](https://img.shields.io/badge/Forks-894-green)  
+    ![895 forks](https://img.shields.io/badge/Forks-895-green)  
     面向开发人员梳理的代码安全指南
     
     + [QMUI_iOS](https://github.com/tencent/QMUI_iOS) 
