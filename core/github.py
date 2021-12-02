@@ -110,7 +110,7 @@ def query_total(user, token):
       }}
     }}
     """
-    info = {"stars": 0, "forks": 0}
+    info = {"stars": 0, "forks": 0, ratio: 0}
     headers = {"Authorization": "token "+ token}
     endCursor = ""
     hasNextPage = True
@@ -131,6 +131,7 @@ def query_total(user, token):
             info["stars"] += i_repo["stargazerCount"]
             info["forks"] += i_repo["forkCount"]
         hasNextPage = obj['repositories']['pageInfo']['hasNextPage']
+    info["ratio"] = info["forks"]/info["stars"]
     return (info)
 
 '''    
